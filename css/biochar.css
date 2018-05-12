@@ -1,0 +1,366 @@
+/* You may set the width and height of container/section elements in percentages.
+DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
+.homepage {
+	width: 50%;
+	height: 150px;
+	position: fixed;
+	z-index: 2;
+}
+.header {
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	background-size: 725px 150px;
+	width: 50%;
+	height: 150px;
+	position: absolute;
+	left: 0px;
+	margin: 0px auto;
+}
+.header1 {
+	background-image: url("../images/header1.jpg");
+	background-repeat: no-repeat;
+	background-size: 725px 150px;
+	width: 50%;
+	height: 150px;
+	position: absolute;
+	right: 0px;
+	margin: 0px auto;
+}
+.pages {
+	width: 12%;
+	margin: 66px 111px 0px 0px;
+	position: relative;
+	float: right;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+A.class1 {
+	color: #e5e2dc;
+	text-decoration: none;
+}
+.first-word {
+	color: #5365a6;
+	font-size: 28px;
+}
+h2 {
+	color: #c28b30;
+	font-size: 25px;
+	line-height: 35px;
+}
+h3 {
+	color: #739152;
+	font-size: 25px;
+	line-height: 30px;
+}
+.field {
+	margin: 140px 100px 0px 150px;
+	background-image:url('../images/field.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 35%;
+	height: 80%;
+	float: left;
+}
+.home {
+	margin: 230px 200px 0px 0px;
+	width: 31%;
+	height: 60%;
+	float: right;
+	font-family: "Proxima Nova", sans-serif;
+	color: #333333;
+	font-size: 20px;
+	line-height: 27px;
+}
+.header2 {
+	background-image:url('../images/header2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100% auto;
+	height: 145px;
+}
+img {
+	margin: 109px 0px 0px 190px;
+	float: left;
+}
+.pages2 {
+	margin: 115px 0px 0px 40px;
+	position: relative;
+	float: left;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 22px;
+}
+.biochar {
+	background-image:url('../images/about.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 23%;
+	height: 70%;
+	float: left;
+	margin: 46px 0px 0px 135px;
+}
+.columns {
+	width: 55%;
+	height: 65%;
+	float: right;
+	margin-top: -60px
+}
+.about1 {
+	width: 22%;
+	height: 70%;
+	float: left;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	text-align: left;
+	line-height: 20px;
+	margin: 0px 30px 0px 30px;
+	color: #333333
+}
+.about2 {
+	width: 22%;
+	height: 70%;
+	float: left;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	text-align: left;
+	line-height: 20px;
+	margin: 0px 30px 0px 30px;
+	color: #333333
+}
+.about3 {
+	width: 22%;
+	height: 70%;
+	float: left;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	text-align: left;
+	line-height: 20px;
+	margin: 0px 30px 0px 30px;
+	color: #333333
+}
+.header3 {
+	background-image:url('../images/header3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100% auto;
+	height: 145px;
+}
+.kilns {
+	margin: 10px 100px 0px 70px;
+	background-image:url('../images/reactors.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 20%;
+	height: 77%;
+	float: left;
+}
+.production {
+	margin: 80px 100px 0px 90px;
+	width: 85%;
+	height: 65%;
+	float: right;
+	font-family: "Proxima Nova", sans-serif;
+	color: #333333;
+	font-size: 15px;
+	line-height: 20px;
+}
+.header4 {
+	background-image:url('../images/header4.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100% auto;
+	height: 145px;
+}
+form {
+	margin: 2px 95px 0px 90px;
+	width: 30%;
+	position: relative;
+	float: left;
+	font-size: 13px;
+	text-align: right;
+	line-height: 20px;
+}
+.connect {
+	margin: 75px 90px 0px 0px;
+	height: 70%;
+	float: right;
+	font-family: "Proxima Nova", sans-serif;
+	color: #333333;
+	font-size: 15px;
+	line-height: 20px;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #e5e2dc;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+}
+
+#first {
+	background: #e5e2dc;
+}
+
+#second {
+	background: #e5e2dc;
+}
+
+#third {
+	background: #e5e2dc;
+}
+
+#fourth {
+	background: #e5e2dc;
+}
+.information {
+	width: auto;
+	position: relative;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 22px;
+}
+#menu {
+	position: absolute;
+}
+
+/* CSS for the circles */
+
+#buttons {
+	width: 120px;
+	height: 70px; /* I recommend keeping the height no lower than 70px, but feel free to change the width */
+	position: absolute;
+	margin: 115px 0px 0px 1250px;
+}
+.circle {
+	width: 20px;
+	height: 20px;
+	margin-left: 2px;
+	border-radius: 100%;
+	position: relative;
+	float: left;
+	z-index: 5;
+}
+
+.blue {
+	background: #5365a6;
+}
+
+.green {
+	background: #739152;
+}
+
+.white {
+	background: #e5e2dc;
+}
+
+.orange {
+	background: #c28b30;
+}
+
+
+/* CSS for the text links */
+
+#link_box {
+	width: 500px;
+	height: 70px; /* I recommend keeping the height no lower than 70px, but feel free to change the width */
+	position: absolute;
+	display: none; /* to ensure that all links aren't displayed at the beginning */
+	margin-left: 935px;
+}
+
+.link {
+	display: block;
+	float: right; /* makes sure that all links all aligned horizontally rather than stacked */
+	line-height: -20px; /* adjust this value if the text links aren't aligning vertically with your buttons */
+}
+
+.about {
+	margin-left: 40px;
+}
+
+.productions {
+	margin-left: 40px;
+}
+
+.connect {
+	margin-left: 40px;
+}
+
+
+/* CSS for circle animations */
+
+
+.blue_on { /* animation for blue circle moving to the left */
+	animation: blue_on_key 1s forwards;
+}
+
+.blue_off { /* animation for blue circle moving back */
+	animation: blue_off_key 1s forwards;
+}
+
+@keyframes blue_on_key {
+	0% { left: 0px; }
+	100% { left: -306px; }
+}
+
+@keyframes blue_off_key {
+	0% { left: -330px; }
+	100% { left: 0px; }
+}
+
+.green_on {
+	animation: green_on_key 1s forwards;
+}
+
+.green_off {
+	animation: green_off_key 1s forwards;
+}
+
+@keyframes green_on_key {
+	0% { left: 0px; }
+	100% { left: -230px; }
+}
+
+@keyframes green_off_key {
+	0% { left: -236px; }
+	100% { left: 0px; }
+}
+
+.white_on {
+	animation: white_on_key 1s forwards;
+}
+
+.white_off {
+	animation: white_off_key 1s forwards;
+}
+
+@keyframes white_on_key {
+	0% { left: 0px; }
+	100% { left: -108px; }
+}
+
+@keyframes white_off_key {
+	0% { left: -114px; }
+	100% { left: 0px; }
+}
+footer {
+	background-color: #333333;
+	height: 3%;
+	padding: 10px;
+	position: fixed;
+		left: 0;
+		bottom: 0;
+	width: 100%
+}
